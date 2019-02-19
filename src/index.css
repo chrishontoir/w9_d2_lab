@@ -6,9 +6,40 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  text-transform: capitalize;
+  background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/intermediary/f/159d6d33-5d73-4b2d-94cb-3fca673ed674/d6dhp0n-70379ec8-b473-4ff2-b532-bec1ebab0859.jpg/v1/fill/w_800,h_500,q_70,strp/simple_young_pokemon_background__1680x1050__by_kiss_d6dhp0n-fullview.jpg);
+  background-size: cover;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+#picture {
+  width: 200px;
+  float:left;
+  margin:0 auto;
+  background-color: white;
+  border:2px solid black;
+  box-shadow: -10px 25px 50px grey;
+}
+
+.pokemon-box{
+  width:70%;
+  margin:0 auto;
+}
+
+.pokemon-detail{
+
+}
+
+.pokemon-detail p, h4, ul {
+  width:50%;
+  float:right;
+  text-align: left;
+}
+
+.pokemon-detail h3 {
+  width: 50%;
 }
